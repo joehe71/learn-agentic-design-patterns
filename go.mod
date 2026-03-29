@@ -2,7 +2,10 @@ module learn-agentic-design-patterns
 
 go 1.25.0
 
-require github.com/openai/openai-go v1.12.0
+require (
+	github.com/openai/openai-go v1.12.0
+	golang.org/x/sync v0.20.0
+)
 
 require (
 	github.com/tidwall/gjson v1.18.0 // indirect
